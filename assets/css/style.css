@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(73, 152, 170);
+  --primary-color-darker: rgba(67, 207, 218, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  width: 75%;
+  max-width: 640px;
+  margin: 50px auto;
+  background: linear-gradient(90deg, var(--primary-color) 0%, rgb(29, 112, 167));
+  border: 5px solid black;
+  border-radius: 5%;
+  padding: 30px;
+  
+}
+
+.container h1{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline; 
+}
+
+.container p{
+  text-align: center;
+  font-size: 30px;
+  
+
+}
+
+.btn-tarefa{
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(42, 153, 66);
+  padding: 5px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  
+}
+
+.container input{
+  font-size: 15px;
+  border: solid 1px rgb(8, 8, 8);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+
+.container ul button{
+  background-color: rgb(196, 12, 12);
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+
+}
+
+@media(max-width:340px ){
+  .container {
+    width: 100%;
+   
+  
+  }
+}
+
+
